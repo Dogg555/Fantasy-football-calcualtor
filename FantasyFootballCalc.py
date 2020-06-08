@@ -1,13 +1,30 @@
 #functions of the code
 def NFL():
-    print("This is placeholder text for now.")
+    leagueTypeInput = input("Is the league you are in using defensive players in it (Yes or No)? ")
+    if leagueTypeInput == "Yes":
+        NFLIDP()
+    elif leagueTypeInput == "No":
+        NONNFLIDP()
+    else:
+        print("Sorry you have put invalid input here, please try again.")
+
+    
+
+
+
+
 def ESPN():
     print("This is placeholder text for now.")
+
 def Yahoo():
     print("This is placeholder text for now.")
 
+#Functions of the NFL code
+def NFLIDP():
+    print("This is placeholder text for now.")
 
-
+def NONNFLIDP():
+    print("This is placeholder text for now.")
 
 #Main Area of the code 
 def Main():
